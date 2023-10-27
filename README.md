@@ -8,18 +8,9 @@
 
 นอกจากนี้ เรามีเซนเซอร์ตรวจจับระยะ HC-SR04 เพื่อกำหนดระยะที่เซนเซอร์ตรวจจับเสียงจะทำงาน อุปกรณ์จะทำงานเมื่อผู้ใช้เปล่งเสียงอยู่ในระยะที่กำหนดเท่านั้น.
 
-## รูปภาพเกี่ยวกับโครงงาน
-
-![Image 1: Sound sensor & Ultrasonic](/WEBSITE/img/Project.jpg)
-![Image 2: Arduino Uno](/WEBSITE/img/UNO_2.jpg)
-![Image 3: KY-037](/WEBSITE/img/KY-037.jpg)
-![Image 4: HC-SR04](/WEBSITE/img/HC-SR04.jpg)
-![Image 5: RGB LED](/WEBSITE/img/RGB_LED.jpg)
-![Image 6: LED](/WEBSITE/img/LED.jpg)
-
 ## การเริ่มต้น
 
-สามารถเริ่มต้นดูโครงงานและรหัสที่ใช้ได้จากลิงก์ด้านล่าง:
+สามารถเริ่มต้นดูโครงงาน และ CODE ที่ใช้ได้จากลิงก์ด้านล่าง:
 - [Source Code](https://github.com/Earth123456789/Project-Physical_Computing/blob/main/Source%20Code/project.ino)
 
 ## วิดีโอตัวอย่างการใช้งาน
