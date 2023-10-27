@@ -10,11 +10,11 @@
 
 ## รูปภาพเกี่ยวกับโครงงาน
 
-![Image 1: Sound sensor & Ultrasonic](/WEBSITE/img/Sound%20sensor%20&%20Ultrasonic.jpg)
+![Image 1: Sound sensor & Ultrasonic](/WEBSITE/img/Project.jpg)
 ![Image 2: Arduino Uno](/WEBSITE/img/UNO_2.jpg)
 ![Image 3: KY-037](/WEBSITE/img/KY-037.jpg)
 ![Image 4: HC-SR04](/WEBSITE/img/HC-SR04.jpg)
-![Image 5: RGB LED](/WEBSITE/img/RGB%20LED.jpg)
+![Image 5: RGB LED](/WEBSITE/img/RGB_LED.jpg)
 ![Image 6: LED](/WEBSITE/img/LED.jpg)
 
 ## การเริ่มต้น
@@ -35,5 +35,5 @@
 - พัฒนาทักษะการเขียนโปรแกรม: เรียนรู้เพิ่มเติมเกี่ยวกับการเขียนโปรแกรมใน Arduino IDE และพัฒนาต่อยอดโครงงานให้มีความซับซ้อนมากขึ้น
 - แบ่งปันและสอนความรู้: แบ่งปันโครงงานและความรู้ทางด้าน Physical Computing ให้กับผู้ที่สนใจเพื่อสร้างชุมชนและสอนความรู้กัน
 
-หากคุณสนใจในโครงงานของเรา หรือต้องการติดต่อเราสำหรับคำถามเพิ่มเติม คุณสามารถติดต่อเราผ่านเว็บไซต์ของเรา: [ชื่อเว็บไซต์ของคุณ](/WEBSITE/Main.html)
+หากคุณสนใจในโครงงานของเรา หรือต้องการติดต่อเราสำหรับคำถามเพิ่มเติม คุณสามารถติดต่อเราผ่านเว็บไซต์ของเรา: [MAIN WEBSITE](/WEBSITE/Main.html)
 
