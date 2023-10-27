@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="Main.css" />
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="div">
+        <div class="overlap">
+          <img class="rectangle" src="https://c.animaapp.com/6NZ27PKR/img/rectangle-2@2x.png" />
+        </div>
+        <div class="overlap-group">
+          <div class="text-wrapper">หน้าแรก</div>
+          <div class="text-wrapper-2"><a href="Supervisor.html">คณะผู้จัดทำ</a></div>
+          <div class="text-wrapper-3"><a href="https://www.youtube.com/watch?v=wBzG23-Hc2o" target="_blank">วิดีโอตัวอย่างการใช้งาน</a></div>
+          <div class="text-wrapper-4"><a href="https://github.com/Earth123456789/Project-Physical_Computing/blob/main/Source%20Code/project.ino" target="_blank">Source Code</a></div>
+        </div>
+        <div class="Top">Sound sensor & Ultrasonic</div>
+        <div class="overlap-group-2">
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-5">บทคัดย่อ</div>
+          <p class="element-arduino">
+            <br />โครงงานครั้งนี้มีวัตถุประสงค์ เพื่อ
+            <br />1.
+            ศึกษาวิธีการต่อวงจรบนบอร์ด Arduino
+            <br />2.
+            สร้างของเล่นที่สามารถนำมาเล่นแข่งกันเพื่อความสนุกได้
+            <br />3.
+            นำความรู้ที่ได้จากการทำโครงงานนี้ไปประยุกต์ใช้ต่อในอนาคต <br />
+            โดยอุปกรณ์หลักที่พวกเราเลือกใช้คือ
+            <br />1. บอร์ด Arduino
+            Uno <br />2.
+            เซนเซอร์ตรวจจับเสียง KY-037
+            <br />3. หลอดไฟ LED
+            <br />4.
+            เซนเซอร์วัดระยังทาง HC-SR04<br />
+            หลักการทำงานของสิ่งประดิษฐ์ของกลุ่มพวกเราคือ เมื่อผู้เล่นทำการเปล่งเสียงออกมาจะทำให้หลอดไฟสว่าง
+            <br />โดยหลอดไฟจะมี 3 ระดับ และจะสว่างตามความดังของเสียงผู้เล่นจากน้อยไปมาก
+            โดยต้องเปล่งเสียงในระยะห่างที่กำหนดเอาไว้
+          </p>
+          <div class="text-wrapper-6">รูปภาพเกี่ยวกับโครงงาน</div>
+            <!-- Slideshow Gallery -->
+          <div class="slideshow-container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <div class="caption">Sound sensor & Ultrasonic</div>
+                <img src="img/Sound sensor & Ultrasonic.jpg" style="width:100%" alt="Image 1: Sound sensor & Ultrasonic">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <div class="caption">Arduino Uno</div>
+                <img src="img/UNO_2.jpg" style="width:100%" alt="Image 2: Arduino Uno">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <div class="caption">KY-037</div>
+                <img src="img/KY-037.jpg" style="width:100%" alt="Image 3: KY-037">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <div class="caption">HC-SR04c</div>
+                <img src="img/HC-SR04.jpg" style="width:100%" alt="Image 4: HC-SR04">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <div class="caption">RGB LED</div>
+                <img src="img/RGB LED.jpg" style="width:100%" alt="Image 5: RGB LED">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <div class="caption">LED</div>
+                <img src="img/LED.jpg" style="width:100%" alt="Image 6: LED">
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/Sound sensor & Ultrasonic.jpg" style="width:100%" onclick="currentSlide(1)" alt="Image 1: Sound sensor & Ultrasonic">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/UNO_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Image 2: Arduino Uno">
+                </div>
+                <div class ="column">
+                    <img class="demo cursor" src="img/KY-037.jpg" style="width:100%" onclick="currentSlide(3)" alt="Image 3: KY-037">
+                </div>
+                <div class="column">
+                    <img class ="demo cursor" src="img/HC-SR04.jpg" style="width:100%" onclick="currentSlide(4)" alt="Image 4: HC-SR04">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/RGB LED.jpg" style="width:100%" onclick="currentSlide(5)" alt="Image 5: RGB LED">
+                </div>
+                <div class ="column">
+                    <img class="demo cursor" src="img/LED.jpg" style="width:100%" onclick="currentSlide(6)" alt="Image 6: LED">
+                </div>
+            </div>
+          </div>
+          <div class="text-wrapper-7">คำอธิบายโครงงาน</div>
+          <div class="text-wrapper-8">รายละเอียดโครงงาน</div>
+          <p class="arduino-uno">
+            โครงงานนี้เป็นโครงงานที่ใช้เทคโนโลยีและอุปกรณ์อิเล็กทรอนิกส์เพื่อสร้างของเล่นที่สนุกและสอนผู้เล่นเรื่องการใช้บอร์ด
+            Arduino Uno <br />ในการสร้างอุปกรณ์อัจฉริยะที่ตอบสนองตามเสียงที่ผู้เล่นเปล่งออกมา โดยมีวัตถุประสงค์หลัก 3
+            ข้อดังนี้:<br /><br />1. ศึกษาวิธีการต่อวงจรบนบอร์ด Arduino Uno:
+            โครงงานนี้เป็นโอกาสที่ผู้ร่วมทำโครงงานจะได้เรียนรู้การใช้บอร์ด Arduino Uno
+            <br />ในการสร้างโปรแกรมและต่อวงจรเพื่อควบคุมอุปกรณ์อิเล็กทรอนิกส์ เช่น เซนเซอร์และ LED ในโครงงานนี้
+            ผู้ร่วมโครงงานจะได้ศึกษาเรื่องการโปรแกรม Arduino
+            และการต่อวงจรอิเล็กทรอนิกส์ที่เกี่ยวข้องกับการตรวจจับเสียงและควบคุมหลอด LED ตามระดับเสียงที่ตรวจจับได้<br /><br />
+            2. สร้างของเล่นที่สามารถนำมาเล่นแข่งกันเพื่อความสนุกได้:
+            ผู้ร่วมโครงงานจะใช้ความรู้และทักษะที่เรียนรู้จากการศึกษา<br />และทดลองทำบน Arduino Uno
+            เพื่อสร้างอุปกรณ์เล่นที่สนุก โดยอุปกรณ์นี้สามารถเล่นแข่งกันได โดยการเปล่งเสียง และต้องควบคุมระดับแสงของหลอด
+            LED ตามระดับเสียงของผู้เล่น<br /><br />3.
+            นำความรู้ที่ได้จากการทำโครงงานนี้ไปประยุกต์ใช้ต่อในอนาคต: โครงงานนี้ไม่เพียงเพื่อสร้างของเล่นสนุก
+            <br />แต่ยังเป็นโอกาสที่ผู้ร่วมโครงงานจะได้รู้จักการใช้ Arduino Uno ในโปรเจคอื่น ๆ ในอนาคต นอกจากนี้
+            การเรียนรู้เรื่องการตรวจจับเสียงและควบคุมแสง ก็สามารถนำไปใช้ในโปรเจคอื่น ๆ ได้
+            เช่นการสร้างอุปกรณ์ควบคุมเครื่องใช้ในบ้านอัจฉริยะหรือโครงงานที่เกี่ยวกับเสียงและแสงในอนาคต<br /><br />
+            การทำงานของอุปกรณ์คือเมื่อผู้เล่นเปล่งเสียงออกมาผ่านเซนเซอร์ตรวจจับเสียง KY-037
+            อุปกรณ์จะตรวจจับระดับเสียงและควบคุมหลอดไฟ LED ให้สว่างตามระดับเสียงที่ตรวจจับได้ โดยมี 3
+            ระดับที่แสดงด้วยความสว่างของ LED
+            <br />ผู้เล่นจะต้องเปล่งเสียงในระยะห่างที่กำหนดเอาไว้เพื่อเพิ่มความสนุกในการแข่งขันและทดสอบทักษะในการควบคุมเสียงและแสง
+          </p>
+          <p class="element-arduino-arduino">
+            1. ศึกษาวิธีการต่อวงจรบนบอร์ด Arduino
+            ในขอบขางนี้ขอเสนอการดำเนินการตามลำดับเพื่อศึกษาวิธีการต่อวงจรบนบอร์ด Arduino:
+            <br />1.1 ศึกษาเกี่ยวกับ Arduino: ศึกษาเกี่ยวกับบอร์ด Arduino Uno, การต่อวงจร, และภาษาโปรแกรม Arduino IDE
+            <br />1.2 ศึกษาวงจรเซนเซอร์: รู้จักเซนเซอร์ตรวจจับเสียง KY-037 และเซนเซอร์วัดระยะทาง HC-SR04 อย่างละเอียด
+            <br />1.3 ศึกษาการใช้งาน LED: เรียนรู้วิธีการใช้งานและควบคุมหลอดไฟ LED บน Arduino <br /><br />2.
+            สร้างของเล่นที่สามารถนำมาเล่นแข่งกันเพื่อความสนุกได้ ของเล่นที่คุณกำลังสร้างมีรายละเอียดการทำงานดังนี้:
+            <br />2.1 ระบบตรวจจับเสียง: ใช้เซนเซอร์ KY-037 เพื่อตรวจจับเสียงที่ผู้เล่นเปล่งออกมา
+            <br />2.2 การประมวลผลเสียง: ใช้ Arduino Uno เพื่อประมวลผลสัญญาณเสียงและระบุระดับความดังของเสียง
+            <br />2.3 ควบคุมแสง LED: ควบคุมหลอดไฟ LED ในโหมด 3 ระดับตามความดังของเสียงที่รับมา <br /><br />
+            3. นำความรู้ที่ได้จากการทำโครงงานนี้ไปประยุกต์ใช้ต่อในอนาคตเพื่อให้โครงงานมีความหมายมากขึ้นในการพัฒนาความรู้และทักษะ <br />คุณสามารถพิจารณาเรื่องต่อไป:
+            <br />3.1 พัฒนาแอพพลิเคชันเสริม: พัฒนาแอปพลิเคชันสำหรับมือถือหรือคอมพิวเตอร์ที่อาจเชื่อมต่อกับโครงงานของคุณผ่าน
+            <br />Bluetooth หรือ Wi-Fi เพื่อควบคุมการเปล่งแสง LED หรือแสดงข้อมูลเสียงออกมา
+            <br />3.2 การสร้างโครงงานที่ใช้เซนเซอร์: ใช้ความรู้ที่ได้จากการใช้เซนเซอร์ KY-037 และ HC-SR04
+            <br />เพื่อสร้างโครงงานอื่น ๆ ที่เกี่ยวข้องกับการตรวจจับเสียงหรือการวัดระยะ
+            <br />3.3 การพัฒนาทักษะการเขียนโปรแกรม: เรียนรู้เพิ่มเติมเกี่ยวกับการเขียนโปรแกรม Arduino และการโปรแกรมแบบ embedded
+            systems
+            <br />เพื่อประยุกต์ใช้ในงานที่มีการควบคุมอุปกรณ์โดยใช้ไมโครคอนโทรลเลอร์<br /><br />
+            โดยหลักการทำงานของชิ้นงานนี้มีดังนี้ :<br />1. ถ้าระยะของตัวคุณห่างจากชิ้นงาน 12 เซนติเมตร หรือ ใกล้เกิน 5 เซนติเมตร จะไม่สามารถเล่นได้ แต่หากอยู่ในระยะที่กำหนด LED ขึ้นสีฟ้าและสามารถเล่นได้<br />(หลักการคำนวนดังนี้ cm = (pulseWidth /
+            2.0) / 29.1)<br />2.ถ้าเสียงอยู่ในช่วงที่มากกว่า
+            570 เดซิเบล RGB LED อันที่ 1 จะมีเขียวขึ้น ถ้าเสียงอยู่ในช่วงที่มากว่า 650 เดซิเบล RGB LED อันที่ 1 จะมีสีเขียว และ
+            <br />RGB LED อันที 2 จะมีสีเหลือง ถ้าเสียงอยู่ในช่วงที่มากว่า 800 เดซิเบล RGB LED อันที่ 1 จะมีสีเขียว และ RGB LED
+            อันที 2 จะมีสีเหลือง และ RGB LED อันที่ 3 จะมีสีแดง
+          </p>
+          <div class="ellipse"></div>
+          <div class="ellipse-2"></div>
+          <div class="ellipse-3"></div>
+          <div class="ellipse-4"></div>
+          <div class="ellipse-5"></div>
+        </div>
+        <div class="overlap-2">
+          <a href="https://github.com/Earth123456789/Project-Physical_Computing" target="_blank"><img class="mark-github" src="https://c.animaapp.com/6NZ27PKR/img/mark-github-24.svg" /></a>
+          <a href="https://www.youtube.com/watch?v=wBzG23-Hc2o" target=""><img class="video" src="https://c.animaapp.com/6NZ27PKR/img/video-24-1.svg"/></a>
+        </div>
+      </div>
+    </div>
+    <script src="Main.js"></script>
+  </body>
+</html>

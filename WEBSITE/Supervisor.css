@@ -1,0 +1,289 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1580px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 114px;
+  top: 0;
+  left: 0;
+  background-color: #ff9d44;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 454px;
+  height: 90px;
+  top: 12px;
+  left: 24px;
+  object-fit: cover;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 1920px;
+  height: 142px;
+  top: 114px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.desktop .text-wrapper {
+  top: 48px;
+  left: 134px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-2 {
+  width: 225px;
+  top: 46px;
+  left: 330px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .Top{
+  top: 30px;
+  left: 500px;
+  font-size: 48px;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+
+@keyframes example {
+  from {color: #ffffff; left: 500px; top: 30px;}
+  to {color: #000000; left: 1250px; top: 30px;}
+}
+
+
+.desktop .text-wrapper-3 {
+  width: 345px;
+  top: 46px;
+  left: 598px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-4 {
+  position: absolute;
+  width: 254px;
+  top: 44px;
+  left: 986px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .overlap-group-2 {
+  position: absolute;
+  width: 2087px;
+  height: 1324px;
+  top: 256px;
+  left: -100px;
+}
+
+.desktop .rectangle-2 {
+  position: absolute;
+  width: 1920px;
+  height: 1324px;
+  top: 0;
+  left: 100px;
+  background-color: #d9d9d9;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 151px;
+  left: 234px;
+  object-fit: cover;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 151px;
+  left: 674px;
+  object-fit: cover;
+}
+
+.desktop .ellipse-2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 151px;
+  left: 1147px;
+  object-fit: cover;
+}
+
+.desktop .ellipse-3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 151px;
+  left: 1587px;
+  object-fit: cover;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 1920px;
+  height: 179px;
+  top: 1145px;
+  left: 100px;
+  background-color: #ff9d44;
+}
+
+.desktop .mark-github {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 1197px;
+  left: 204px;
+}
+
+.desktop .video {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 1199px;
+  left: 347px;
+}
+
+.desktop .element {
+  position: absolute;
+  width: 446px;
+  top: 560px;
+  left: 174px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .element-2 {
+  width: 484px;
+  left: 582px;
+  position: absolute;
+  top: 560px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .element-3 {
+  width: 384px;
+  left: 1105px;
+  position: absolute;
+  top: 560px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .element-4 {
+  width: 434px;
+  left: 1520px;
+  position: absolute;
+  top: 560px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .ellipse-4 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 51px;
+  left: 0;
+  background-color: #d9ff70;
+  border-radius: 100px;
+}
+
+.desktop .ellipse-5 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 886px;
+  left: 1887px;
+  background-color: #d9ff70;
+  border-radius: 100px;
+}
+
+.desktop .text-wrapper:hover,
+.desktop .text-wrapper-2:hover,
+.desktop .text-wrapper-3:hover,
+.desktop .text-wrapper-4:hover {
+  color: #FFA500; 
+}
+
+/* Default link color (black) */
+a {
+  color: #000;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Link color when hovering (orange) */
+a:hover {
+  color: #FFA500;
+}
